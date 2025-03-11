@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin:0;
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma, sans-serif;
+  /* background-image: url("code-programme-informatique.jpg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: cover; */
+
+}
+body.allan{
+  background-image: url("418826725_926543812391076_3629956311172933004_n.jpg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: top;
+  background-size: cover;
+}
+nav {
+  position: fixed;
+  margin-top: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 5rem;
+  background-color: black;
+  border-radius: 15px;
+  padding-left: 2%;
+  padding-right: 1%;
+  transition: 0.5s;
+}
+
+.leftnav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.leftnav h2 {
+  color: rgb(233, 194, 51);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.rightnav h3 {
+  color: rgb(233, 194, 51);
+  font-weight: 200;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container a {
+  height: 100%;
+  position: relative;
+  font-size: 20px;
+  color: White;
+  text-decoration: none;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+span {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  height: 200%;
+  width: 20%;
+  background-color: blue;
+  border-radius: 20px;
+  background: linear-gradient(111deg, rgba(170,95,0,1) 0%, rgba(215,118,0,1) 44%, rgba(233,194,51,1) 100%);
+  transition: 0.5s ease-out;
+}
+.selector .animation{
+  left: 115px;
+  width: 23%;
+  animation: a2 0.5s;
+  box-shadow:0px 0px 20px 1px rgba(255,208,61,0.68);
+}
+@keyframes a1 {}
+.container a:nth-child(1):hover ~ span {
+  left: 0;
+  width: 20%;
+  box-shadow: 0px 0px 20px 1px rgba(255,208,61,0.68);
+}
+
+.container a:nth-child(2):hover ~ span {
+  left: 115px;
+  width: 23%;
+  animation: a2 0.5s;
+  box-shadow:0px 0px 20px 1px rgba(255,208,61,0.68);
+}
+
+.container a:nth-child(3):hover ~ span {
+  left: 249px;
+  width: 23%;
+  box-shadow: 0px 0px 20px 1px rgba(255,208,61,0.68);
+}
+
+.container a:nth-child(4):hover ~ span {
+  left: 390px;
+  width: 16%;
+  box-shadow: 0px 0px 20px 1px rgba(255,208,61,0.68);
+}
+
+.container a:hover {
+  animation: ahoover 0.5s ease-in forwards;
+}
+
+@keyframes ahoover {
+  20% {
+    color: rgb(233, 194, 51);
+  }
+
+
+
+  100% {
+    color: black;
+  }
+}
+#moi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+#moi h1{
+  margin-top: 90px;
+}
+.deroulage{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/Images/code-programme-informatique.jpg");
+  background-position-x: left;
+  background-position-y: top;
+  background-size: cover;
+}
+.welcome h1{
+  color: white;
+  margin-bottom: 130px;
+  margin-left: 150px;
+  user-select: none;
+}
+.contenu{
+  width: 50%;
+}
+/*# sourceMappingURL=nav.css.map */
+#allan:hover{
+  cursor: pointer;
+}

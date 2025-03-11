@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Amurius\\Documents\\Portfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|C:\\Users\\Amurius\\Documents\\Portfolio\\accueilportfolio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|solutionrelative:accueilportfolio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|C:\\Users\\Amurius\\Documents\\Portfolio\\enterpc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|solutionrelative:enterpc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|C:\\Users\\Amurius\\Documents\\Portfolio\\accueilportfolio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|solutionrelative:accueilportfolio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|c:\\users\\amurius\\documents\\portfolio\\enterpc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|solutionrelative:enterpc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|C:\\Users\\Amurius\\Documents\\Portfolio\\app_start\\projet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3AD308-6554-49D0-A3E1-4984DDA455A3}|Portfolio.csproj|solutionrelative:app_start\\projet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 250,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "enterPC.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Amurius\\Documents\\Portfolio\\enterPC.aspx.cs",
+              "RelativeDocumentMoniker": "enterPC.aspx.cs",
+              "ToolTip": "C:\\Users\\Amurius\\Documents\\Portfolio\\enterPC.aspx.cs",
+              "RelativeToolTip": "enterPC.aspx.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwIsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:28:21.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccueilPortfolio.aspx",
+              "DocumentMoniker": "C:\\Users\\Amurius\\Documents\\Portfolio\\AccueilPortfolio.aspx",
+              "RelativeDocumentMoniker": "AccueilPortfolio.aspx",
+              "ToolTip": "C:\\Users\\Amurius\\Documents\\Portfolio\\AccueilPortfolio.aspx",
+              "RelativeToolTip": "AccueilPortfolio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-17T09:28:22.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projet.cs",
+              "DocumentMoniker": "C:\\Users\\Amurius\\Documents\\Portfolio\\App_Start\\Projet.cs",
+              "RelativeDocumentMoniker": "App_Start\\Projet.cs",
+              "ToolTip": "C:\\Users\\Amurius\\Documents\\Portfolio\\App_Start\\Projet.cs",
+              "RelativeToolTip": "App_Start\\Projet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:28:21.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "enterPC.aspx",
+              "DocumentMoniker": "C:\\Users\\Amurius\\Documents\\Portfolio\\enterPC.aspx",
+              "RelativeDocumentMoniker": "enterPC.aspx",
+              "ToolTip": "C:\\Users\\Amurius\\Documents\\Portfolio\\enterPC.aspx",
+              "RelativeToolTip": "enterPC.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-17T09:28:21.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccueilPortfolio.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Amurius\\Documents\\Portfolio\\AccueilPortfolio.aspx.cs",
+              "RelativeDocumentMoniker": "AccueilPortfolio.aspx.cs",
+              "ToolTip": "C:\\Users\\Amurius\\Documents\\Portfolio\\AccueilPortfolio.aspx.cs",
+              "RelativeToolTip": "AccueilPortfolio.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T09:28:21.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

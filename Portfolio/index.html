@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="nav.css">
+  <script type="text/javascript" src="script.js"></script>
+
+  <script type="text/javascript">
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    let prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function () {
+      let currentScrollPos = window.pageYOffset;
+      if (currentScrollPos > 50) {
+
+        document.querySelector("nav").style.backgroundColor = "rgba(0, 0, 0, 0.1)";
+        document.querySelector("nav").style.backdropFilter = "blur(5px)";
+      } else {
+        document.querySelector("nav").style.backgroundColor = "black";
+        document.querySelector("nav").style.backdropFilter = "none";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+
+    function allan() {
+      document.querySelector("body").className = "allan";
+    }
+
+
+    var i = 0;
+    var txt = 'BIENVENUE SUR MON PORTFIOLIO'; /* The text */
+    var speed = 50; /* The speed/duration of the effect in milliseconds */
+    var timer = 1;
+    var timer2 = 10;
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("bienvenue").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+      sleep(4000).then(() => {
+
+        if (txt.length > 0) {
+          txt = txt.substring(0, txt.length - 1);
+          document.getElementById("bienvenue").innerHTML = txt;
+          setTimeout(typeWriter, speed);
+        }
+      });
+    }
+
+    setInterval(function () {
+      timer--;
+      console.log(timer);
+      if (timer == 0) {
+        console.log("niquetamere");
+        typeWriter();
+        timer = 10;
+      } 
+      if (timer2 == 0) {
+        i = 0;
+        txt = 'BIENVENUE SUR MON PORTFIOLIO';
+        timer2 = 10;
+      }
+    }, 1000);
+  </script>
+</head>
+<body>
+  <nav id="navbar">
+    <div class="leftnav">
+      <h2>PORTFOLIO</h2>
+      <div class="container">
+        <a href="">Accueil</a>
+        <a href="#moi">Qui suis-je</a>
+        <a href="">Epreuve E4</a>
+        <a href="">Contact</a>
+        <span class="selector"></span>
+      </div>
+    </div>
+    <div class="rightnav">
+      <h3 id="allan" onclick="allan()">CASCALES Vitrice</h3>
+    </div>
+  </nav>
+  <div class="deroulage">
+    <div class="welcome">
+      <h1 id="bienvenue"></h1>
+    </div>
+    <div id="moi">
+      <H1>Qui suis-je ?</H1>
+      <div class="contenu">
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, ducimus ex minima corrupti eligendi sit doloremque cumque iusto officiis cum dolore inventore architecto explicabo! Officia iure sapiente corrupti obcaecati assumenda?</h3>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
